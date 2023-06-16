@@ -1,0 +1,53 @@
+ROOT_ENTITY
+{
+	name 
+	(
+		"blessed_arch"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.005"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/blessed_arch.femb" "Cylinder.002"
+	)
+		
+
+}
+
+RESOURCES
+{
+	gpu_meshes 
+	(
+		("res/meshes/blessed_arch.femb" "Cylinder.002" "res/textures/blessed_arch_0.png")
+		("res/meshes/blessed_arch.femb" "Cylinder.002" "res/textures/blessed_arch_0.png")
+		
+	)
+		
+
+}
+

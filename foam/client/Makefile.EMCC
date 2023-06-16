@@ -1,0 +1,39 @@
+LIB_NAME 	= /mnt/data/code/c/libs/foamengine/lib/libfoamengineweb.bc
+EMCC 		= /mnt/data/code/c/libs/emsdk/emscripten/incoming/emcc
+
+EXTENSION 	= c
+
+CORE_SRC_DIR = ../core/src
+SRCS_DIR	= src
+
+INCS_DIR	= -Iinc -I../core/inc -I$(CORE_SRC_DIR)
+
+SRCS		= $(shell find $(SRCS_DIR) -type f -name *.$(EXTENSION))
+CORE_SRCS	= $(shell find $(CORE_SRC_DIR) -type f -name *.$(EXTENSION))
+
+EMCCSRCS = $(SRCS)
+EMCCSRCS += $(CORE_SRCS) 
+
+DIRS := . $(shell find $(OBJS_DIR) -type d)
+GARBAGE_PATTERNS := *.o *.d
+GARBAGE := $(foreach DIR,$(DIRS),$(addprefix $(DIR)/,$(GARBAGE_PATTERNS)))
+
+MAKE		= make --no-print-directory -C
+ECHO		= echo
+
+all		: emcc
+
+
+clean		:
+		  @rm -rf $(GARBAGE)
+
+
+-include $(DEPS)
+
+.PHONY		: all clean
+
+emcc:
+	@$(EMCC) $(EMCCSRCS) $< $(INCS_DIR) -s NO_EXIT_RUNTIME=0 -s TOTAL_MEMORY=67108864 \
+		-s WASM=0 -s USE_WEBGL2=1 -s FULL_ES3=1 -s USE_SDL=2\
+		--preload-file res -o $(LIB_NAME)
+

@@ -1,0 +1,2639 @@
+ROOT_ENTITY
+{
+	name 
+	(
+		"church"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_base"
+	)
+		
+	transform 
+	(
+		(108.521935 12.747507 120.323112)
+		(0.000000 0.000000 0.000000 1.000000)
+		(45.222679 14.322412 14.239567)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "cube_wall_base"
+	)
+		
+	mesh_collider 
+	(
+		"res/meshes/map.femb" "cube_wall_base"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.001"
+	)
+		
+	transform 
+	(
+		(148.492065 8.502079 136.378235)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.002"
+	)
+		
+	transform 
+	(
+		(132.492065 8.502079 136.378235)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.003"
+	)
+		
+	transform 
+	(
+		(116.492058 8.502079 136.378235)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.004"
+	)
+		
+	transform 
+	(
+		(100.492058 8.502079 136.378235)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.005"
+	)
+		
+	transform 
+	(
+		(84.492058 8.502079 136.378235)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.006"
+	)
+		
+	transform 
+	(
+		(68.492058 8.502079 136.378235)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.007"
+	)
+		
+	transform 
+	(
+		(148.492065 16.992947 136.378113)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.008"
+	)
+		
+	transform 
+	(
+		(132.492065 16.992947 136.378113)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.009"
+	)
+		
+	transform 
+	(
+		(116.492058 16.992947 136.378113)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.010"
+	)
+		
+	transform 
+	(
+		(100.492058 16.992947 136.378113)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.011"
+	)
+		
+	transform 
+	(
+		(84.492058 16.992947 136.378113)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick"
+	)
+		
+	transform 
+	(
+		(68.492058 16.992947 136.378113)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_entrance"
+	)
+		
+	transform 
+	(
+		(-6.013315 12.747507 120.323112)
+		(0.000000 0.000000 0.000000 1.000000)
+		(45.222679 14.322412 14.239567)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "cube_wall_base.001"
+	)
+		
+	mesh_collider 
+	(
+		"res/meshes/map.femb" "cube_wall_base.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.012"
+	)
+		
+	transform 
+	(
+		(33.956806 8.502079 136.378235)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.013"
+	)
+		
+	transform 
+	(
+		(17.956814 8.502079 136.378235)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.014"
+	)
+		
+	transform 
+	(
+		(1.956809 8.502079 136.378235)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.015"
+	)
+		
+	transform 
+	(
+		(-14.043194 8.502079 136.378235)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.016"
+	)
+		
+	transform 
+	(
+		(-30.043194 8.502079 136.378235)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.017"
+	)
+		
+	transform 
+	(
+		(-46.043194 8.502079 136.378235)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.018"
+	)
+		
+	transform 
+	(
+		(33.956806 16.992947 136.378113)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.019"
+	)
+		
+	transform 
+	(
+		(17.956814 16.992947 136.378113)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.020"
+	)
+		
+	transform 
+	(
+		(1.956809 16.992947 136.378113)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.021"
+	)
+		
+	transform 
+	(
+		(-14.043194 16.992947 136.378113)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.022"
+	)
+		
+	transform 
+	(
+		(-30.043194 16.992947 136.378113)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.023"
+	)
+		
+	transform 
+	(
+		(-46.043194 16.992947 136.378113)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_base.002"
+	)
+		
+	transform 
+	(
+		(-120.572166 12.747507 120.323112)
+		(0.000000 0.000000 0.000000 1.000000)
+		(45.222679 14.322412 14.239567)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "cube_wall_base"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.024"
+	)
+		
+	transform 
+	(
+		(-80.602043 8.502079 136.378235)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.025"
+	)
+		
+	transform 
+	(
+		(-96.602036 8.502079 136.378235)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.026"
+	)
+		
+	transform 
+	(
+		(-112.602036 8.502079 136.378235)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.027"
+	)
+		
+	transform 
+	(
+		(-128.602051 8.502079 136.378235)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.028"
+	)
+		
+	transform 
+	(
+		(-144.602051 8.502079 136.378235)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.029"
+	)
+		
+	transform 
+	(
+		(-160.602051 8.502079 136.378235)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.030"
+	)
+		
+	transform 
+	(
+		(-80.602043 16.992947 136.378113)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.031"
+	)
+		
+	transform 
+	(
+		(-96.602036 16.992947 136.378113)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.032"
+	)
+		
+	transform 
+	(
+		(-112.602036 16.992947 136.378113)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.033"
+	)
+		
+	transform 
+	(
+		(-128.602051 16.992947 136.378113)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.034"
+	)
+		
+	transform 
+	(
+		(-144.602051 16.992947 136.378113)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_wall_brick.035"
+	)
+		
+	transform 
+	(
+		(-160.602051 16.992947 136.378113)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.487231 0.353229 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_wall_brick"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"skybox"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "skybox"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"moon"
+	)
+		
+	transform 
+	(
+		(-616.916382 -184.661026 723.389282)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.372495 1.372495 1.372495)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "moon"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"moon_glow"
+	)
+		
+	transform 
+	(
+		(-616.916382 -184.661087 723.389221)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.372495 1.372495 1.372495)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "moon_glow"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_tower.001"
+	)
+		
+	transform 
+	(
+		(165.791855 12.691948 161.529755)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_tower"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_gate"
+	)
+		
+	transform 
+	(
+		(0.209630 12.057030 126.243744)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_gate"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_tower.005"
+	)
+		
+	transform 
+	(
+		(51.259769 12.691945 161.529770)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_tower"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_tower.002"
+	)
+		
+	transform 
+	(
+		(-63.287544 12.691945 161.529770)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_tower"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_tower.003"
+	)
+		
+	transform 
+	(
+		(-177.844696 12.691948 161.529755)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_tower"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"cliff_rocks.001"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "cliff_rocks.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"grass_ground"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "grass_ground"
+	)
+		
+	mesh_collider 
+	(
+		"res/meshes/map.femb" "grass_ground"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"test"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(90.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_bridge"
+	)
+		
+	parent 
+	(
+		"test"
+	)
+		
+	transform 
+	(
+		(-0.012453 -7.601675 105.563797)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_bridge"
+	)
+		
+	mesh_collider 
+	(
+		"res/meshes/map.femb" "castle_bridge"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_bridge_chain"
+	)
+		
+	transform 
+	(
+		(0.000001 -5.870353 116.178894)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_bridge_chain"
+	)
+		
+	mesh_collider 
+	(
+		"res/meshes/map.femb" "castle_bridge_chain"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"cliff_rocks"
+	)
+		
+	transform 
+	(
+		(-0.083901 -428.603668 -3.933603)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 0.194841)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "cliff_rocks.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"grass_ground.002"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "grass_ground.002"
+	)
+		
+	mesh_collider 
+	(
+		"res/meshes/map.femb" "grass_ground.002"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"brick_bridge"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "brick_bridge"
+	)
+		
+	mesh_collider 
+	(
+		"res/meshes/map.femb" "brick_bridge"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"water"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "water"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"zombie_cross_gate"
+	)
+		
+	transform 
+	(
+		(-20.488607 -309.132233 15.953208)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.058059 3.058059 3.058059)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "zombie_cross_gate"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"zombie_cross"
+	)
+		
+	transform 
+	(
+		(-20.435009 -310.661163 16.534349)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.058059 3.058059 3.058059)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "zombie_cross"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"zombie_on_cross"
+	)
+		
+	transform 
+	(
+		(-20.404358 -311.213745 18.236773)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.058059 3.058059 3.058059)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "zombie_on_cross"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"spellbook"
+	)
+		
+	transform 
+	(
+		(-20.435400 -327.770721 10.090646)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.529029 1.529029 1.529029)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "spellbook"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"blood_pool_cross"
+	)
+		
+	transform 
+	(
+		(-20.593807 -309.558990 8.375303)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.058059 3.058059 3.058059)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "blood_pool_cross"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"church_building"
+	)
+		
+	transform 
+	(
+		(-87.322426 -362.046295 20.866272)
+		(0.000000 0.000000 0.707107 0.707107)
+		(2.719904 2.719904 2.719904)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "church_building"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"church_door"
+	)
+		
+	transform 
+	(
+		(-70.727188 -353.870850 12.094367)
+		(0.000000 0.000000 0.707107 0.707107)
+		(2.719904 2.719904 2.719904)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "church_door"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"church_bars"
+	)
+		
+	transform 
+	(
+		(-91.227570 -351.385223 24.126894)
+		(0.000000 0.000000 0.707107 0.707107)
+		(2.719904 2.719904 2.719904)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "church_bars"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"church_coffin"
+	)
+		
+	transform 
+	(
+		(-90.274681 -380.405701 9.599151)
+		(0.000000 0.000000 0.707107 0.707107)
+		(2.719904 2.719904 2.719904)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "church_coffin"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"church_cross"
+	)
+		
+	transform 
+	(
+		(-91.319038 -375.548309 80.224129)
+		(0.000000 0.000000 0.707107 0.707107)
+		(2.719904 2.719904 2.719904)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "church_cross"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"church_roof"
+	)
+		
+	transform 
+	(
+		(-88.312012 -365.343964 38.306736)
+		(0.000000 0.000000 0.707107 0.707107)
+		(2.719904 2.719904 2.719904)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "church_roof"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"church_floor"
+	)
+		
+	transform 
+	(
+		(-91.265335 -359.740326 8.206885)
+		(0.000000 0.000000 0.707107 0.707107)
+		(2.719904 2.719904 2.719904)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "church_floor"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"tree"
+	)
+		
+	transform 
+	(
+		(-68.245834 -415.557831 30.042650)
+		(0.000000 0.000000 0.000000 1.000000)
+		(2.015719 2.015719 2.015719)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "tree"
+	)
+		
+	mesh_collider 
+	(
+		"res/meshes/map.femb" "tree"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"tree.001"
+	)
+		
+	transform 
+	(
+		(-56.694942 -437.566284 21.913616)
+		(0.000000 0.000000 0.000000 1.000000)
+		(2.015719 2.015719 2.015719)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "tree.001"
+	)
+		
+	mesh_collider 
+	(
+		"res/meshes/map.femb" "tree.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"tree.002"
+	)
+		
+	transform 
+	(
+		(-49.862350 -478.413818 43.782768)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.279608 3.279608 3.279608)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "tree"
+	)
+		
+	mesh_collider 
+	(
+		"res/meshes/map.femb" "tree"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"tree.003"
+	)
+		
+	transform 
+	(
+		(-94.702042 -451.839783 43.453438)
+		(0.000000 0.000000 0.363954 0.931417)
+		(3.279608 3.279608 3.279608)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "tree"
+	)
+		
+	mesh_collider 
+	(
+		"res/meshes/map.femb" "tree"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"huge_door.001"
+	)
+		
+	transform 
+	(
+		(-357.191498 -302.775360 199.468307)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "huge_door.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"huge_door"
+	)
+		
+	transform 
+	(
+		(0.083410 14.382332 183.084320)
+		(0.000000 0.000000 -0.314707 0.949189)
+		(8.188314 7.879477 7.476392)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "huge_door"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"ladder"
+	)
+		
+	transform 
+	(
+		(77.521301 17.734268 117.157791)
+		(0.000000 0.000000 0.000000 1.000000)
+		(0.247558 0.247558 3.169515)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"ladder.001"
+	)
+		
+	transform 
+	(
+		(75.495560 17.734268 117.157791)
+		(0.000000 0.000000 0.000000 1.000000)
+		(0.247558 0.247558 3.169515)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 119.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.001"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 118.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.002"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 117.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.003"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 116.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.004"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 115.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.005"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 114.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.006"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 113.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.007"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 112.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.008"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 111.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.009"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 110.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.010"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 109.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.011"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 108.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.012"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 107.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.013"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 120.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.014"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 121.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.015"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 122.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.016"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 123.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.017"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 124.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.018"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 125.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.019"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 126.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.020"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 127.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.021"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 128.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.022"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 129.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.023"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 130.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.024"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 131.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.025"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 132.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder.026"
+	)
+		
+	transform 
+	(
+		(76.508118 17.738297 133.219025)
+		(-0.000000 -0.707107 -0.000000 0.707107)
+		(0.090595 0.105149 0.105149)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "Cylinder.001"
+	)
+		
+
+}
+
+RESOURCES
+{
+	gpu_meshes 
+	(
+		("res/meshes/map.femb" "castle_wall" "res/textures/brick_0.png")
+		("res/meshes/map.femb" "castle_tower" "res/textures/brick_0.png")
+		("res/meshes/map.femb" "cliff_rocks.001" "res/textures/rock_0.png")
+		("res/meshes/map.femb" "grass_ground" "res/textures/grass_0.png")
+		("res/meshes/map.femb" "skybox" "res/textures/skybox_0.png")
+		("res/meshes/map.femb" "moon" "res/textures/moon_0.png")
+		("res/meshes/map.femb" "moon_glow" "res/textures/moon_glow_0.png")
+		("res/meshes/map.femb" "castle_wall_gate" "res/textures/brick_0.png")
+		("res/meshes/map.femb" "castle_gate" "res/textures/bars_1.png")
+		("res/meshes/map.femb" "castle_bridge" "res/textures/wood_1.png")
+		("res/meshes/map.femb" "castle_bridge_chain" "res/textures/chain_0.png")
+		("res/meshes/map.femb" "brick_tower" "res/textures/brick_0.png")
+		("res/meshes/map.femb" "brick_bridge" "res/textures/brick_0.png")
+		("res/meshes/map.femb" "water" "res/textures/water_0.png")
+		("res/meshes/map.femb" "zombie_cross_gate" "res/textures/bars_1.png")
+		("res/meshes/map.femb" "zombie_cross" "res/textures/metal_0.png")
+		("res/meshes/map.femb" "zombie_on_cross" "res/textures/zombie_0.png")
+		("res/meshes/map.femb" "spellbook" "res/textures/book_0.png")
+		("res/meshes/map.femb" "blood_pool_cross" "res/textures/blood_pool_0.png")
+		("res/meshes/map.femb" "church_building" "res/textures/mossy_stone_0.png")
+		("res/meshes/map.femb" "church_door" "res/textures/wood_door_0.png")
+		("res/meshes/map.femb" "church_bars" "res/textures/bars_0.png")
+		("res/meshes/map.femb" "church_coffin" "res/textures/wood_0.png")
+		("res/meshes/map.femb" "church_cross" "res/textures/metal_0.png")
+		("res/meshes/map.femb" "church_roof" "res/textures/shingles_0.png")
+		("res/meshes/map.femb" "church_floor" "res/textures/brick_1.png")
+		("res/meshes/map.femb" "tree" "res/textures/tree_0.png")
+		("res/meshes/map.femb" "tree.001" "res/textures/tree_0.png")
+		("res/meshes/map.femb" "huge_door.001" "res/textures/missing_texture.png")
+		("res/meshes/map.femb" "huge_door" "res/textures/missing_texture.png")
+		("res/meshes/map.femb" "Cube" "res/textures/brick_0.png")
+		("res/meshes/map.femb" "cube_wall_base" "res/textures/brick_0.png")
+		("res/meshes/map.femb" "castle_wall_brick" "res/textures/brick_0.png")
+		("res/meshes/map.femb" "Cylinder" "res/textures/wood_1.png")
+		("res/meshes/map.femb" "Cylinder.001" "res/textures/wood_1.png")
+		("res/meshes/map.femb" "cube_wall_base.001" "res/textures/brick_0.png")
+		("res/meshes/map.femb" "grass_ground.002" "res/textures/grass_0.png")
+		
+	)
+		
+	gpu_mesh_flags 
+	(
+		("res/meshes/map.femb" "castle_gate" "DISABLE_CULLING")
+		("res/meshes/map.femb" "church_bars" "DISABLE_CULLING")
+		("res/meshes/map.femb" "church_building" "DISABLE_CULLING")
+		("res/meshes/map.femb" "castle_bridge_chain" "DISABLE_CULLING")
+		("res/meshes/map.femb" "zombie_cross_gate" "DISABLE_CULLING")
+		("res/meshes/map.femb" "church_coffin" "DISABLE_CULLING")
+		("res/meshes/map.femb" "church_roof" "DISABLE_CULLING")
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"tree.004"
+	)
+		
+	transform 
+	(
+		(66.859207 -415.557831 29.958498)
+		(0.000000 0.000000 0.000000 1.000000)
+		(2.015719 2.015719 2.015719)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "tree"
+	)
+		
+	mesh_collider 
+	(
+		"res/meshes/map.femb" "tree"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"tree.005"
+	)
+		
+	transform 
+	(
+		(78.410095 -437.566284 21.829464)
+		(0.000000 0.000000 0.000000 1.000000)
+		(2.015719 2.015719 2.015719)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "tree.001"
+	)
+		
+	mesh_collider 
+	(
+		"res/meshes/map.femb" "tree.001"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"tree.006"
+	)
+		
+	transform 
+	(
+		(85.242676 -478.413818 43.782768)
+		(0.000000 0.000000 0.000000 1.000000)
+		(3.279608 3.279608 3.279608)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "tree"
+	)
+		
+	mesh_collider 
+	(
+		"res/meshes/map.femb" "tree"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"tree.007"
+	)
+		
+	transform 
+	(
+		(4.610222 -444.450104 39.505276)
+		(0.000000 0.000000 0.363954 0.931417)
+		(2.897739 2.897739 2.897739)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "tree"
+	)
+		
+	mesh_collider 
+	(
+		"res/meshes/map.femb" "tree"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"castle_bridge.001"
+	)
+		
+	transform 
+	(
+		(-0.012453 -249.346695 15.652313)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/map.femb" "castle_bridge"
+	)
+		
+	mesh_collider 
+	(
+		"res/meshes/map.femb" "castle_bridge"
+	)
+		
+
+}
+

@@ -1,0 +1,34 @@
+@FE_VERT
+
+layout (location = 0) in vec3 fe_a_pos;
+
+uniform mat4 fe_projection;
+uniform mat4 fe_view;
+
+out vec3 fe_tex_coords;
+
+void 
+main(void)
+{	
+	fe_tex_coords = fe_a_pos;	
+	vec4 pos = fe_projection * fe_view * vec4(fe_a_pos, 1.0); 
+    gl_Position = pos.xyww;
+}
+
+FE_VERT@
+
+@FE_FRAG
+
+in vec3 fe_tex_coords;
+
+uniform samplerCube fe_cube_map;
+
+out vec4 frag_color;
+
+void
+main(void)
+{
+    frag_color = texture(fe_cube_map, fe_tex_coords);
+}
+
+FE_FRAG@

@@ -1,0 +1,47 @@
+ROOT_ENTITY
+{
+	name 
+	(
+		"rocket_launcher"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Cylinder"
+	)
+		
+	transform 
+	(
+		(-0.000290 -0.000990 1.026698)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+
+}
+
+RESOURCES
+{
+	gpu_meshes 
+	(
+		("res/meshes/rocket_launcher.femb" "Cylinder" "res/textures/rocket_launcher_0.png")
+		
+	)
+		
+
+}
+

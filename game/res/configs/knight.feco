@@ -1,0 +1,906 @@
+ROOT_ENTITY
+{
+	name 
+	(
+		"knight"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"knight_head"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/knight.femb" "knight_head"
+	)
+		
+	parent 
+	(
+		"bone_head"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"knight_pelvis"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/knight.femb" "knight_pelvis"
+	)
+		
+	parent 
+	(
+		"bone_pelvis"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"knight_torso"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/knight.femb" "knight_torso"
+	)
+		
+	parent 
+	(
+		"bone_torso"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"knight_arm_lower.r"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/knight.femb" "knight_arm_lower.r"
+	)
+		
+	parent 
+	(
+		"bone_arm_lower.r"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"knight_foot.r"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/knight.femb" "knight_foot.r"
+	)
+		
+	parent 
+	(
+		"bone_foot.r"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"knight_leg_lower.r"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/knight.femb" "knight_leg_lower.r"
+	)
+		
+	parent 
+	(
+		"bone_leg_lower.r"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"knight_leg_upper.r"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/knight.femb" "knight_leg_upper.r"
+	)
+		
+	parent 
+	(
+		"bone_leg_upper.r"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"knight_sword.r"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/knight.femb" "knight_sword.r"
+	)
+		
+	parent 
+	(
+		"bone_hand.r"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"knight_arm_upper.r"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/knight.femb" "knight_arm_upper.r"
+	)
+		
+	parent 
+	(
+		"bone_arm_upper.r"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"knight_arm_lower.l"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/knight.femb" "knight_arm_lower.l"
+	)
+		
+	parent 
+	(
+		"bone_arm_lower.l"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"knight_foot.l"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/knight.femb" "knight_foot.l"
+	)
+		
+	parent 
+	(
+		"bone_foot.l"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"knight_leg_lower.l"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/knight.femb" "knight_leg_lower.l"
+	)
+		
+	parent 
+	(
+		"bone_leg_lower.l"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"knight_leg_upper.l"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/knight.femb" "knight_leg_upper.l"
+	)
+		
+	parent 
+	(
+		"bone_leg_upper.l"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"knight_sword.l"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/knight.femb" "knight_sword.l"
+	)
+		
+	parent 
+	(
+		"bone_hand.l"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"knight_arm_upper.l"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000 1.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	mesh_instance 
+	(
+		"res/meshes/knight.femb" "knight_arm_upper.l"
+	)
+		
+	parent 
+	(
+		"bone_arm_upper.l"
+	)
+		
+
+}
+
+RESOURCES
+{
+	gpu_meshes 
+	(
+		("res/meshes/knight.femb" "knight_head" "res/textures/missing_texture.png")
+		("res/meshes/knight.femb" "knight_pelvis" "res/textures/missing_texture.png")
+		("res/meshes/knight.femb" "knight_torso" "res/textures/missing_texture.png")
+		("res/meshes/knight.femb" "knight_arm_lower.r" "res/textures/missing_texture.png")
+		("res/meshes/knight.femb" "knight_foot.r" "res/textures/missing_texture.png")
+		("res/meshes/knight.femb" "knight_leg_lower.r" "res/textures/missing_texture.png")
+		("res/meshes/knight.femb" "knight_leg_upper.r" "res/textures/missing_texture.png")
+		("res/meshes/knight.femb" "knight_sword.r" "res/textures/missing_texture.png")
+		("res/meshes/knight.femb" "knight_arm_upper.r" "res/textures/missing_texture.png")
+		("res/meshes/knight.femb" "knight_arm_lower.l" "res/textures/missing_texture.png")
+		("res/meshes/knight.femb" "knight_foot.l" "res/textures/missing_texture.png")
+		("res/meshes/knight.femb" "knight_leg_lower.l" "res/textures/missing_texture.png")
+		("res/meshes/knight.femb" "knight_leg_upper.l" "res/textures/missing_texture.png")
+		("res/meshes/knight.femb" "knight_sword.l" "res/textures/missing_texture.png")
+		("res/meshes/knight.femb" "knight_arm_upper.l" "res/textures/missing_texture.png")
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"Armature"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	skeleton 
+	(
+		"res/skeletons/knight.fesk"
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"bone_pelvis"
+	)
+		
+	parent 
+	(
+		"Armature"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	bone 
+	(
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"bone_torso"
+	)
+		
+	parent 
+	(
+		"bone_pelvis"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	bone 
+	(
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"bone_head"
+	)
+		
+	parent 
+	(
+		"bone_torso"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	bone 
+	(
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"bone_arm_upper.l"
+	)
+		
+	parent 
+	(
+		"bone_torso"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	bone 
+	(
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"bone_arm_lower.l"
+	)
+		
+	parent 
+	(
+		"bone_arm_upper.l"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	bone 
+	(
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"bone_hand.l"
+	)
+		
+	parent 
+	(
+		"bone_arm_lower.l"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	bone 
+	(
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"bone_arm_upper.r"
+	)
+		
+	parent 
+	(
+		"bone_torso"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	bone 
+	(
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"bone_arm_lower.r"
+	)
+		
+	parent 
+	(
+		"bone_arm_upper.r"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	bone 
+	(
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"bone_hand.r"
+	)
+		
+	parent 
+	(
+		"bone_arm_lower.r"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	bone 
+	(
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"bone_leg_upper.l"
+	)
+		
+	parent 
+	(
+		"bone_pelvis"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	bone 
+	(
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"bone_leg_lower.l"
+	)
+		
+	parent 
+	(
+		"bone_leg_upper.l"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	bone 
+	(
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"bone_foot.l"
+	)
+		
+	parent 
+	(
+		"bone_leg_lower.l"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	bone 
+	(
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"bone_leg_upper.r"
+	)
+		
+	parent 
+	(
+		"bone_pelvis"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	bone 
+	(
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"bone_leg_lower.r"
+	)
+		
+	parent 
+	(
+		"bone_leg_upper.r"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	bone 
+	(
+		
+	)
+		
+
+}
+
+ENTITY
+{
+	name 
+	(
+		"bone_foot.r"
+	)
+		
+	parent 
+	(
+		"bone_leg_lower.r"
+	)
+		
+	transform 
+	(
+		(0.000000 0.000000 0.000000)
+		(0.000000 0.000000 0.000000)
+		(1.000000 1.000000 1.000000)
+		
+	)
+		
+	bone 
+	(
+		
+	)
+		
+
+}
+

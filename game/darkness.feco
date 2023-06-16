@@ -1,0 +1,122 @@
+#MESH_BUNDLE
+
+#{
+#    import ("/mnt/data/art/3d/darkness/export/church.fbx")
+#    export ("res/env/map.femb")
+#
+#}
+#
+#MESH_BUNDLE
+#{
+#    import ("/mnt/data/art/3d/darkness/export/knight.fbx")
+#    export ("res/characters/knight.femb")
+#}
+#
+#SKELETON
+#{
+#    import ("/mnt/data/art/3d/darkness/export/knight.fbx")
+#    export ("res/characters/knight.fesk")
+#}
+#
+#
+#
+#SCENE
+#{
+#    export ("res/characters/knight.feco")
+#
+#    name ("knight")
+#    
+#    mesh_bundles
+#    (
+#        "res/characters/knight.femb"
+#    )
+#
+#    skeletons
+#    ( 
+#        "res/characters/knight.fesk"
+#    )
+#
+#    
+#}
+
+CONFIG
+{
+    mesh_bundles
+    (
+        ("/mnt/data/art/3d/darkness/export/church.fbx" "res/meshes/map.femb"    "res/configs/map.feco"    "church")
+        ("/mnt/data/art/3d/darkness/export/knight.fbx" "res/meshes/knight.femb" "res/configs/knight.feco" "knight")
+        ("/mnt/data/art/3d/darkness/export/rocket_launcher.fbx" "res/meshes/rocket_launcher.femb" "res/configs/rocket_launcher.feco" "rocket_launcher")
+    )
+
+    skeletons
+    ( 
+        ("/mnt/data/art/3d/darkness/export/knight.fbx" "res/skeletons/knight.fesk" "res/configs/knight.feco")
+    )
+     
+}
+
+#RESOURCES
+#{
+#	gpu_meshes
+#	(
+#		("res/map.femb" "castle_wall"         "res/buildings/brick_0.png")
+#		("res/map.femb" "castle_tower"        "res/buildings/brick_0.png")
+#		("res/map.femb" "cliff_rocks.001"     "res/env/rock_0.png")
+#		("res/map.femb" "grass_ground"        "res/env/grass_0.png")
+#		("res/map.femb" "skybox"              "res/env/skybox_0.png")
+#		("res/map.femb" "moon"                "res/env/moon_0.png")
+#		("res/map.femb" "moon_glow"           "res/env/moon_glow_0.png")
+#		("res/map.femb" "castle_wall_gate"    "res/buildings/brick_0.png")
+#		("res/map.femb" "castle_gate"         "res/buildings/bars_1.png")
+#		("res/map.femb" "castle_bridge"       "res/buildings/wood_1.png")
+#		("res/map.femb" "castle_bridge_chain" "res/buildings/chain_0.png")
+#		("res/map.femb" "brick_tower"         "res/buildings/brick_0.png")
+#		("res/map.femb" "brick_bridge"        "res/buildings/brick_0.png")
+#		("res/map.femb" "water"               "res/env/water_0.png")
+#		("res/map.femb" "zombie_cross_gate"   "res/buildings/bars_1.png")
+#		("res/map.femb" "zombie_cross"        "res/buildings/metal_0.png")
+#		("res/map.femb" "zombie_on_cross"     "res/characters/zombie_0.png")
+#		("res/map.femb" "spellbook"           "res/items/book_0.png")
+#		("res/map.femb" "blood_pool_cross"    "res/env/blood_pool_0.png")
+#		("res/map.femb" "church_building"     "res/buildings/mossy_stone_0.png")
+#		("res/map.femb" "church_door"         "res/buildings/wood_door_0.png")
+#		("res/map.femb" "church_bars"         "res/buildings/bars_0.png")
+#		("res/map.femb" "church_coffin"       "res/buildings/wood_0.png")
+#		("res/map.femb" "church_cross"        "res/buildings/metal_0.png")
+#		("res/map.femb" "church_roof"         "res/buildings/shingles_0.png")
+#		("res/map.femb" "church_floor"        "res/buildings/brick_1.png")
+#		("res/map.femb" "tree"                "res/env/tree_0.png")
+#		("res/map.femb" "tree.001"            "res/env/tree_0.png")
+#		("res/map.femb" "huge_door.001"       "res/missing_texture.png")
+#		("res/map.femb" "huge_door"           "res/missing_texture.png")
+#		("res/map.femb" "knight_arm_lower.l"  "res/missing_texture.png")
+#		("res/map.femb" "knight_arm_lower.r"  "res/missing_texture.png")
+#		("res/map.femb" "knight_arm_upper.l"  "res/missing_texture.png")
+#		("res/map.femb" "knight_arm_upper.r"  "res/missing_texture.png")
+#		("res/map.femb" "knight_foot.l"       "res/missing_texture.png")
+#		("res/map.femb" "knight_foot.r"       "res/missing_texture.png")
+#		("res/map.femb" "knight_head"         "res/missing_texture.png")
+#		("res/map.femb" "knight_leg_lower.l"  "res/missing_texture.png")
+#		("res/map.femb" "knight_leg_lower.r"  "res/missing_texture.png")
+#		("res/map.femb" "knight_leg_upper.l"  "res/missing_texture.png")
+#		("res/map.femb" "knight_leg_upper.r"  "res/missing_texture.png")
+#		("res/map.femb" "knight_pelvis"       "res/missing_texture.png")
+#		("res/map.femb" "knight_sword.l"      "res/missing_texture.png")
+#		("res/map.femb" "knight_sword.r"      "res/missing_texture.png")
+#		("res/map.femb" "knight_torso"        "res/missing_texture.png")
+#	)
+#
+#    gpu_mesh_flags
+#    (
+#		("res/map.femb" "castle_gate"         "DISABLE_CULLING")
+#		("res/map.femb" "church_bars"         "DISABLE_CULLING")
+#		("res/map.femb" "church_building"     "DISABLE_CULLING")
+#		("res/map.femb" "castle_bridge_chain" "DISABLE_CULLING")
+#		("res/map.femb" "zombie_cross_gate"   "DISABLE_CULLING")
+#		("res/map.femb" "church_coffin"       "DISABLE_CULLING")
+#		("res/map.femb" "church_roof"         "DISABLE_CULLING")
+#    )
+#}
+
+
+

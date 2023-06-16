@@ -1,0 +1,133 @@
+@FE_VERT
+
+#define FE_MAX_LIGHTS 4
+
+layout (location = 0) in vec3 fe_a_pos;
+layout (location = 1) in vec2 fe_a_tex_coord;
+layout (location = 2) in vec3 fe_a_norm;
+layout (location = 3) in mat4 fe_a_matrix;
+layout (location = 7) in vec4 fe_a_color;
+layout (location = 8) in vec2 fe_a_tex_offset;
+
+uniform mat4 fe_view;
+uniform mat4 fe_projection;
+
+uniform vec3 fe_light_position[FE_MAX_LIGHTS];
+uniform bool fe_fake_light;
+
+uniform float fe_fog_density;
+uniform float fe_fog_gradient;
+
+out vec2  fe_tex_coord;
+out vec4  fe_mesh_color;
+out float fe_fog_visibility;
+
+out vec3 fe_light_vector[FE_MAX_LIGHTS];
+out vec3 fe_unit_surface_normal;
+out vec3 fe_unit_camera_vector;
+
+void 
+main()
+{	
+	vec4 world_pos = fe_a_matrix * vec4(fe_a_pos, 1.0);
+    vec4 position_relative_to_cam = fe_view * world_pos;
+
+	gl_Position = fe_projection * fe_view * world_pos;
+
+	fe_tex_coord = vec2(fe_a_tex_coord.x, 1.0 - fe_a_tex_coord.y) + fe_a_tex_offset;
+
+    vec3 use_norm = fe_a_norm;
+    if (fe_fake_light) use_norm = vec3(0.0, 1.0, 0.0);
+
+	fe_unit_surface_normal = normalize(fe_a_matrix * vec4(use_norm, 0.0)).xyz;
+    fe_unit_camera_vector = normalize((inverse(fe_view) * vec4(0, 0, 0, 1)).xyz - world_pos.xyz);
+
+
+    for (int i = 0; i < FE_MAX_LIGHTS; i++)
+    {
+        fe_light_vector[i] = fe_light_position[i].xyz - world_pos.xyz;
+    }
+
+    float dist = length(position_relative_to_cam);
+    fe_fog_visibility = exp(-pow((dist*fe_fog_density), fe_fog_gradient));
+    fe_fog_visibility = clamp(fe_fog_visibility, 0.0, 1.0);
+
+    fe_mesh_color = fe_a_color;
+}
+
+FE_VERT@
+
+@FE_FRAG
+
+#define FE_MAX_LIGHTS 4
+
+uniform sampler2D fe_texture;
+uniform vec3 fe_fog_color;
+uniform bool fe_has_fog;
+uniform bool fe_has_texture;
+uniform vec3 fe_light_color[FE_MAX_LIGHTS];
+uniform vec3 fe_light_attenuation[FE_MAX_LIGHTS];
+
+uniform float fe_texture_shine_damper;
+uniform float fe_texture_reflectivity;
+
+in vec2  fe_tex_coord;
+in vec4  fe_mesh_color;
+in float fe_fog_visibility;
+
+in vec3 fe_light_vector[FE_MAX_LIGHTS];
+in vec3 fe_unit_surface_normal;
+in vec3 fe_unit_camera_vector;
+
+out vec4 frag_color;
+
+void
+main()
+{
+    vec3 fe_total_diffuse  = vec3(0.0);
+    vec3 fe_total_specular = vec3(0.0);
+    for (int i = 0; i < FE_MAX_LIGHTS; i++)
+    {
+        float dist = length(fe_light_vector[i]);
+        float att_factor = 1.0 / fe_light_attenuation[i].x + (fe_light_attenuation[i].y * dist) + (fe_light_attenuation[i].z * dist * dist);
+        vec3 unit_light_vector = normalize(fe_light_vector[i]);
+        float n_dot_l = dot(fe_unit_surface_normal, unit_light_vector);
+
+        vec3 light_dir = -unit_light_vector;
+        vec3 reflected_light_dir = reflect(light_dir, fe_unit_surface_normal);
+        float specular = dot(reflected_light_dir, fe_unit_camera_vector);
+        specular = max(specular, 0.0);
+        float damper = pow(specular, fe_texture_shine_damper);
+        float brightness = max(n_dot_l, 0.0);
+        fe_total_diffuse += (brightness * fe_light_color[i]) / att_factor;
+        fe_total_specular += (damper * fe_texture_reflectivity * fe_light_color[i]) / att_factor;
+    }
+
+    fe_total_diffuse = max(fe_total_diffuse, 1.0f);
+
+    if (fe_has_texture)
+    {
+        vec4 texture_color = texture(fe_texture, fe_tex_coord);
+        if (texture_color.a <= 0.1) discard;
+        frag_color = vec4(fe_total_diffuse, 1.0) * texture_color;
+        frag_color *= fe_mesh_color;
+        frag_color += vec4(fe_total_specular, 1.0);
+    }
+    else
+    {
+        frag_color = fe_mesh_color;
+    }
+
+
+    if (fe_has_fog)
+    {
+        frag_color = mix(vec4(fe_fog_color, 1.0), frag_color, fe_fog_visibility);
+    }
+
+    //frag_color = vec4(vec3(fe_unit_surface_normal) * .5 + .5, 1.0);
+
+}
+
+
+FE_FRAG@
+

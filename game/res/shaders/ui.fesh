@@ -1,0 +1,35 @@
+@FE_VERT
+
+layout (location = 0) in vec4 fe_vert;
+
+uniform mat4 fe_model;
+uniform mat4 fe_projection;
+
+out vec2 fe_tex_coord;
+
+void
+main()
+{
+	fe_tex_coord = fe_vert.zw;
+	gl_Position = fe_projection * fe_model * vec4(fe_vert.xy, 0.0, 1.0);
+}
+
+FE_VERT@
+
+@FE_FRAG
+
+uniform sampler2D fe_tex;
+uniform vec4 fe_color;
+
+in vec2 fe_tex_coord;
+
+out vec4 frag_color;
+
+void 
+main()
+{
+	frag_color = fe_color * texture(fe_tex, fe_tex_coord);
+	if (frag_color.a <= 0.0) discard;
+}
+
+FE_FRAG@
